@@ -1,29 +1,29 @@
 module.exports = {
   title: 'Canvasboard',
-  tagline: 'The tagline of my site',
+  tagline: 'Web Board powered by plugins',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'Canvasbird', // Usually your GitHub org/user name.
+  projectName: 'Canvasboard', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Canvasboard',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'CB',
         src: 'img/logo.png',
       },
       items: [
         {
-          to: 'docs/',
+          to: 'docs/introduction/what-is-canvasboard',
           activeBasePath: 'docs',
           label: 'Docs',
-          position: 'left',
+          position: 'right',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        {to: 'blog', label: 'Blog', position: 'right'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/canvasbird/canvasboard',
           label: 'GitHub',
           position: 'right',
         },
