@@ -23,3 +23,23 @@
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
+.navbar{
+  background: transparent!important;
+  border: none;
+  box-shadow: none;
+  padding-left: 5vw;
+}
+
+.navbar__brand:hover{
+  color:var(--ifm-navbar-link-hover-color);
+} 
+
+#myButton{
+  color: var(--ifm-navbar-link-color);
+  background: transparent;
+  border-color: var(--ifm-navbar-link-color);
+}
+#myButton:hover{
+  background:   var(--ifm-navbar-link-hover-color);
+  border-color: var(--ifm-navbar-link-hover-color);
+}
