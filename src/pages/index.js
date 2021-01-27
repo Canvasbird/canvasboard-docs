@@ -13,11 +13,11 @@ function Home() {
     <div className={styles.background}>
       <Layout noFooter title={`${siteConfig.title} Docs`}>
         <div className={styles.bottomLeft}>
-          <div className={styles.text}>Discovering and enacting<br/>the path to safe artificial general intelligence.</div>
-          <div className={styles.smallText}>Our first-of-its-kind API can be applied to any language task, and currently serves millions of production requests each day.</div>
+          <div className={styles.text}>A board with Interactive Plugins to meet all your needs 🌏</div>
+          <div className={styles.smallText}>Canvasboard is an Interactive board with plugins focusing on replacing the need of multiple platforms for teaching, presenting, managing or explaining your ideas</div>
           <div className={styles.buttons}>
             <Link id ="myButton" className={clsx('button button button--secondary button--lg',styles.getStarted)}
-            to={useBaseUrl('docs/introduction/what-is-canvasboard')}> Get Started </Link>
+            to={useBaseUrl('docs/introduction/what-is-canvasboard')}> Explore Docs </Link>
           </div>
         </div>
       </Layout>
