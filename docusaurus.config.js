@@ -21,7 +21,7 @@ module.exports = {
           label: 'Docs',
           position: 'right',
         },
-        {to: 'blog', label: 'Blog', position: 'right'},
+        // {to: 'blog', label: 'Blog', position: 'right'},
         {
           href: 'https://github.com/canvasbird/canvasboard',
           label: 'GitHub',

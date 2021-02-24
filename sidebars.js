@@ -9,6 +9,6 @@ module.exports = {
       'introduction/using-workspace',
       'introduction/using-board'
     ],
-    Features: ['mdx'],
+    // Features: ['mdx'],
   },
 };
